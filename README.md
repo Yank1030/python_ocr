@@ -5,7 +5,7 @@
 docker-compose build
 ```
 * up
-```
+```bash
 docker-compose up -d
 ```
 * down
@@ -14,7 +14,7 @@ docker-compose down
 ```
 
 * image to string
-```
-dokcer exec -it python3 bash
-python sample.py
+```shell
+$ dokcer exec -it python3 bash
+$ python sample.py
 ```
